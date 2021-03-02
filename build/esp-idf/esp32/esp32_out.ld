@@ -101,7 +101,7 @@ MEMORY
 
   */
   rtc_slow_seg(RW) : org = 0x50000000 + 0,
-                                     len = 0x2000 - 0
+                                     len = 0x1000 - 0
   /* external memory ,including data and text */
   extern_ram_seg(RWX) : org = 0x3F800000,
                                      len = 0x400000

@@ -82,7 +82,10 @@
                 "C:/esp/esp-idf/components/esp_netif/include",
                 "C:/esp/esp-idf/components/esp_eth/include",
                 "${workspaceFolder}/components/ssd1306",
-                "${workspaceFolder}/components/d6t44l"
+                "${workspaceFolder}/components/d6t44l",
+                "${workspaceFolder}/components/vl53l3cx",
+                "${workspaceFolder}/components/vl53l3cx/core/inc",
+                "${workspaceFolder}/components/vl53l3cx/platform/inc"
             ],
             "defines": [],
             "cStandard": "c11",

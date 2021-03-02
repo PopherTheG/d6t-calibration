@@ -1,4 +1,4 @@
-# Install script for directory: D:/Xeleqt-Projects/D6T-CALIBRATION/components/d6t44l
+# Install script for directory: D:/d6t-calibration/components/d6t44l
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

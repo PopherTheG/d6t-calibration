@@ -44,50 +44,144 @@
 //      31.51, 31.47, 31.41, 31.32};
 // double data_calib_3[16] = {0};
 
-/* Calibration at distance of around*/
+/* Calibration at distance of 150mm */
+// #define Txl_1 32 //DC1 = Txl_1
+// #define Txh 38
+// double data_1[16] =
+//     {30.33, 30.33, 30.33, 30.33,
+//      30.33, 30.33, 30.33, 30.33,
+//      30.33, 30.33, 30.33, 30.33,
+//      30.33, 30.33, 30.33, 30.33};
+// double data_2[16] =
+//     {36.38, 36.38, 36.38, 36.38,
+//      36.38, 36.38, 36.38, 36.38,
+//      36.38, 36.38, 36.38, 36.38,
+//      36.38, 36.38, 36.38, 36.38};
+// #define Txl_3 32
+// #define PTAT_1 19.5
+// #define PTAT_3 28.4
+// double data_3[16] =
+//     {30.57, 30.57, 30.57, 30.57,
+//      30.57, 30.57, 30.57, 30.57,
+//      30.57, 30.57, 30.57, 30.57,
+//      30.57, 30.57, 30.57, 30.57};
+// double data_calib_3[16] = {0};
+
+/* Calibration at distance of 200mm */
+// #define Txl_1 32 //DC1 = Txl_1
+// #define Txh 38
+// double data_1[16] =
+//     {29.44, 29.44, 29.44, 29.44,
+//      29.44, 29.44, 29.44, 29.44,
+//      29.44, 29.44, 29.44, 29.44,
+//      29.44, 29.44, 29.44, 29.44};
+// double data_2[16] =
+//     {35.1, 35.1, 35.1, 35.1,
+//      35.1, 35.1, 35.1, 35.1,
+//      35.1, 35.1, 35.1, 35.1,
+//      35.1, 35.1, 35.1, 35.1};
+// #define Txl_3 32
+// #define PTAT_1 19.5
+// #define PTAT_3 28.4
+// double data_3[16] =
+//     {30.11, 30.11, 30.11, 30.11,
+//      30.11, 30.11, 30.11, 30.11,
+//      30.11, 30.11, 30.11, 30.11,
+//      30.11, 30.11, 30.11, 30.11};
+// double data_calib_3[16] = {0};
+
+/* Calibration at distance of 250mm */
+// #define Txl_1 32 //DC1 = Txl_1
+// #define Txh 38
+// double data_1[16] =
+//     {27.75, 27.75, 27.75, 27.75,
+//      27.75, 27.75, 27.75, 27.75,
+//      27.75, 27.75, 27.75, 27.75,
+//      27.75, 27.75, 27.75, 27.75};
+// double data_2[16] =
+//     {32.11, 32.11, 32.11, 32.11,
+//      32.11, 32.11, 32.11, 32.11,
+//      32.11, 32.11, 32.11, 32.11,
+//      32.11, 32.11, 32.11, 32.11};
+// #define Txl_3 32
+// #define PTAT_1 19.5
+// #define PTAT_3 28.4
+// double data_3[16] =
+//     {29.48, 29.48, 29.48, 29.48,
+//      29.48, 29.48, 29.48, 29.48,
+//      29.48, 29.48, 29.48, 29.48,
+//      29.48, 29.48, 29.48, 29.48};
+// double data_calib_3[16] = {0};
+
+/* Calibration at distance of 300mm */
+// #define Txl_1 32 //DC1 = Txl_1
+// #define Txh 38
+// double data_1[16] =
+//     {25.81, 25.81, 25.81, 25.81,
+//      25.81, 25.81, 25.81, 25.81,
+//      25.81, 25.81, 25.81, 25.81,
+//      25.81, 25.81, 25.81, 25.81};
+// double data_2[16] =
+//     {31.4, 31.4, 31.4, 31.4,
+//      31.4, 31.4, 31.4, 31.4,
+//      31.4, 31.4, 31.4, 31.4,
+//      31.4, 31.4, 31.4, 31.4};
+// #define Txl_3 32
+// #define PTAT_1 19.5
+// #define PTAT_3 28.3
+// double data_3[16] =
+//     {28.87, 28.87, 28.87, 28.87,
+//      28.87, 28.87, 28.87, 28.87,
+//      28.87, 28.87, 28.87, 28.87,
+//      28.87, 28.87, 28.87, 28.87};
+// double data_calib_3[16] = {0};
+
+/* Calibration at distance of 350mm */
 #define Txl_1 32 //DC1 = Txl_1
-#define Txh 40
+#define Txh 38
 double data_1[16] =
-    {31.07, 31.09, 31.04, 30.94,
-     31.07, 31.18, 31.28, 31.21,
-     31.22, 31.09, 31.11, 31.03,
-     30.98, 31.07, 31.1, 31.05};
+    {24.79, 24.79, 24.79, 24.79,
+     24.79, 24.79, 24.79, 24.79,
+     24.79, 24.79, 24.79, 24.79,
+     24.79, 24.79, 24.79, 24.79};
 double data_2[16] =
-    {39.7, 39.77, 39.72, 39.56,
-     39.77, 39.8, 39.94, 39.88,
-     39.86, 39.72, 39.8, 39.71,
-     39.61, 39.69, 39.79, 39.72};
+    {29.6, 29.6, 29.6, 29.6,
+     29.6, 29.6, 29.6, 29.6,
+     29.6, 29.6, 29.6, 29.6,
+     29.6, 29.6, 29.6, 29.6};
 #define Txl_3 32
-#define PTAT_1 22
+#define PTAT_1 19.5
 #define PTAT_3 28.3
 double data_3[16] =
-    {31.03, 31.02, 31.01, 30.98,
-     31, 31.05, 31.13, 31.13,
-     31.16, 31.05, 31.02, 31.01,
-     30.98, 31.04, 31.04, 31.08};
+    {28.48, 28.48, 28.48, 28.48,
+     28.48, 28.48, 28.48, 28.48,
+     28.48, 28.48, 28.48, 28.48,
+     28.48, 28.48, 28.48, 28.48};
 double data_calib_3[16] = {0};
 
-// #define Txl_1_at_5cm 32 //DC1 = Txl_1
-// #define Txh_at_5cm 40
-// double data_1_at_5cm[16] =
-//     {31.07, 31.09, 31.04, 30.94,
-//      31.07, 31.18, 31.28, 31.21,
-//      31.22, 31.09, 31.11, 31.03,
-//      30.98, 31.07, 31.1, 31.05};
-// double data_2_at_5cm[16] =
-//     {39.7, 39.77, 39.72, 39.56,
-//      39.77, 39.8, 39.94, 39.88,
-//      39.86, 39.72, 39.8, 39.71,
-//      39.61, 39.69, 39.79, 39.72};
-// #define Txl_3_at_5cm 32
-// #define PTAT_1_at_5cm 22
-// #define PTAT_3_at_5cm 28.3
-// double data_3_at_5cm[16] =
-//     {31.03, 31.02, 31.01, 30.98,
-//      31, 31.05, 31.13, 31.13,
-//      31.16, 31.05, 31.02, 31.01,
-//      30.98, 31.04, 31.04, 31.08};
-// double data_calib_3_at_5cm[16] = {0};
+/* Calibration at distance of 400mm */
+// #define Txl_1 32 //DC1 = Txl_1
+// #define Txh 38
+// double data_1[16] =
+//     {24.34, 24.34, 24.34, 24.34,
+//      24.34, 24.34, 24.34, 24.34,
+//      24.34, 24.34, 24.34, 24.34,
+//      24.34, 24.34, 24.34, 24.34};
+// double data_2[16] =
+//     {29.26, 29.26, 29.26, 29.26,
+//      29.26, 29.26, 29.26, 29.26,
+//      29.26, 29.26, 29.26, 29.26,
+//      29.26, 29.26, 29.26, 29.26};
+// #define Txl_3 32
+// #define PTAT_1 19.5
+// #define PTAT_3 28.3
+// double data_3[16] =
+//     {28.07, 28.07, 28.07, 28.07,
+//      28.07, 28.07, 28.07, 28.07,
+//      28.07, 28.07, 28.07, 28.07,
+//      28.07, 28.07, 28.07, 28.07};
+// double data_calib_3[16] = {0};
+
 
 uint8_t rbuf[N_READ];
 double pix_data[N_PIXEL];
@@ -233,8 +327,6 @@ static void d6t_app_task(void)
                 ESP_LOGI(TAG, "PTAT: %4.1f [degC], Temperature: ", ptat / 10.0);
 #endif
                 double hTemp = 0.0;
-                // double dist = .240;
-                // double dist_compensator = 1.00160 + (0.0000486382 * dist) - (0.0000208635 * dist * dist); /* constant from high precision infrared temperature measurement system based on distance compensation by Jing Chen */
                 for (i = 0, j = 2; i < N_PIXEL; i++, j += 2)
                 {
                     itemp = (float)conv8us_s16_le(rbuf, j);
@@ -295,43 +387,6 @@ static void d6t_app_task(void)
     }
     vTaskDelete(NULL);
 }
-
-// static void d6t_app_task(void)
-// {
-//     int i, j;
-//     int16_t ptat = 0;
-//     int16_t itemp = 0;
-//     initialSetting();
-//     while (1)
-//     {
-//         memset(rbuf, 0, N_READ);
-//         uint32_t ret = i2c_read(rbuf, N_READ);
-//         if (D6T_checkPEC(rbuf, N_READ - 1))
-//         {
-//         }
-//         ptat = conv8us_s16_le(rbuf, 0);
-//         printf("PTAT: %4.1f [degC], Temperature: ", ptat / 10.0);
-
-//         for (i = 0, j = 2; i < N_PIXEL; i++, j += 2)
-//         {
-//             itemp = conv8us_s16_le(rbuf, j);
-//             pix_data[i] = (((double)itemp) / 10.0 - data_1[i]) * ((double)Txh - (double)Txl_1) / (data_2[i] - data_1[i]) + (double)Txl_1;
-//             pix_data[i] = pix_data[i] - (((double)ptat) / 10.0 - (double)PTAT_1) * (data_calib_3[i] - (double)Txl_3) / ((double)PTAT_3 - (double)PTAT_1);
-//             printf("%4.1f", pix_data[i]); // print Temperature
-//             if ((i % N_ROW) == N_ROW - 1)
-//             {
-//                 printf(", "); // wrap text at ROW end.
-//             }
-//             else
-//             {
-//                 printf(", "); // print delimiter
-//             }
-//         }
-//         printf("[degC]\n");
-//         vTaskDelay(1000 / portTICK_PERIOD_MS);
-//     }
-//     vTaskDelete(NULL);
-// }
 
 void D6T44l_get_data(double *dTemp)
 {

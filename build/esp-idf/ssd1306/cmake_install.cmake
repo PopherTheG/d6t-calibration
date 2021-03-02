@@ -1,4 +1,4 @@
-# Install script for directory: D:/Xeleqt-Projects/D6T-CALIBRATION/components/ssd1306
+# Install script for directory: D:/d6t-calibration/components/ssd1306
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "D:/Xeleqt-Projects/D6T-CALIBRATION/build/CMakeFiles/bootloader"
+			"file" : "D:/d6t-calibration/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "D:/Xeleqt-Projects/D6T-CALIBRATION/build/CMakeFiles/bootloader.rule"
+			"file" : "D:/d6t-calibration/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "D:/Xeleqt-Projects/D6T-CALIBRATION/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "D:/d6t-calibration/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "D:/Xeleqt-Projects/D6T-CALIBRATION/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "D:/d6t-calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "D:/Xeleqt-Projects/D6T-CALIBRATION/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "D:/d6t-calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "D:/Xeleqt-Projects/D6T-CALIBRATION/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "D:/d6t-calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "D:/Xeleqt-Projects/D6T-CALIBRATION/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "D:/d6t-calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		},
 		{
-			"file" : "D:/Xeleqt-Projects/D6T-CALIBRATION/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "D:/d6t-calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "D:/Xeleqt-Projects/D6T-CALIBRATION/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "D:/d6t-calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "D:/Xeleqt-Projects/D6T-CALIBRATION/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "D:/d6t-calibration/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		}
 	],
 	"target" : 

@@ -22,6 +22,7 @@
 
 #include "ssd1306.h"
 #include "d6t44l.h"
+#include "vl53l3cx.h"
 
 #define TAG "main-app"
 #define I2C_MASTER_PORT I2C_NUM_0
@@ -39,6 +40,28 @@ typedef enum
 } state_t;
 
 static state_t state = STATE_ERROR;
+
+static void vl53l3cx_event_handler(vl53l3cx_event_t *evt)
+{
+    switch (evt->id)
+    {
+    case TOF_EVT_THRESHOLD_INSIDE:
+        // state = STATE_SCAN;
+        // gpio_set_level(LED_BLUE, 1);
+        // scanner_app_trigger();
+        break;
+
+    case TOF_EVT_THRESHOLD_OUTSIDE:
+        D6T44L_reset();
+        // scanner_app_sleep();
+        // state = STATE_READY;
+        break;
+
+    default:
+        // ESP_LOGE(TAG, "Unknow TOF event.");
+        break;
+    }
+}
 
 static void d6t44lc_event_handler(d6t44l_event_t *evt)
 {
@@ -257,10 +280,10 @@ void app_main()
     }
 #endif
 
-  // if (init_vl53l3cx(vl53l3cx_event_handler) == VL53LX_ERROR_NONE)
-  // {
-  //     vl53l3cx_start_app();
-  // }
+  if (init_vl53l3cx(vl53l3cx_event_handler) == VL53LX_ERROR_NONE)
+  {
+      vl53l3cx_start_app();
+  }
 
   // xTaskCreate(system_info_task, "sys-info", 2048, NULL, 1, NULL);
   // xTaskCreate(i2c_scan, "i2c-scan", 1024 * 2, NULL, 5, NULL);
